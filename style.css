@@ -8,14 +8,46 @@
 }
 
 :root {
+    font-size: 62.5%;
     --bg-body: #c5e4e7;
     --bg-main: #fff;
+    --sherpa-blue: #00474b;
+    --greyish-turquoise: #5e7a7d;
+    --topaz: #26c2ae;
+    --regend-grey: #7f9d9f;
+    --squeeze: #f3f9fa;
 }
 
 body {
+    font-size: 1.6rem;
     background: var(--bg-body);
+}
+
+header {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    justify-content: center;
 }
 
 main {
     background: var(--bg-main);
+    padding: 3.2rem 2.4rem;
+
+    border-radius: 2.5rem 2.5rem 0 0;
+
+}
+ 
+.info {
+    padding-inline: 0.8rem;
+
+    strong {
+        color: var(--greyish-turquoise);
+    }
+
+    .imput-box {
+        margin-top: 0.6rem;
+        background: var(--squeeze);
+    }
 }
