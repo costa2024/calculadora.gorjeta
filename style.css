@@ -97,7 +97,10 @@ main {
                 border: none;
                 padding-block: 0.6rem;
                 border-radius: 0.5rem;
+            }
 
+            .button-selected {
+               background-color: var(--topaz);
             }
             
             input {
@@ -197,7 +200,7 @@ main {
             grid-template-columns: repeat(3, 1fr);
 
             button:hover {
-                background: var(--topaz);
+                background: var(--water);
                 cursor: pointer;
                 transition: 0.3s;
             }
